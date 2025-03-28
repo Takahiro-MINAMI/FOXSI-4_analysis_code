@@ -1,0 +1,5 @@
+./hike_for_mergedevent.sh ~/works/flight_data-FOXSI-4/merged_data/cdte1_merged_v0_0_4.root 1
+./hike_for_mergedevent.sh ~/works/flight_data-FOXSI-4/merged_data/cdte2_merged_v0_0_4.root 2
+./hike_for_mergedevent.sh ~/works/flight_data-FOXSI-4/merged_data/cdte3_merged_v0_0_4.root 3
+./hike_for_mergedevent.sh ~/works/flight_data-FOXSI-4/merged_data/cdte4_merged_v0_0_4.root 4
+hadd -f ~/works/flight_data-FOXSI-4/merged_data/path5/cdteAll_merged_v0_0_4_base_cal_gapmod_doimod_poscal.root ~/works/flight_data-FOXSI-4/merged_data/path5/cdte1_merged_v0_0_4_base_cal_gapmod_doimod_poscal.root ~/works/flight_data-FOXSI-4/merged_data/path5/cdte2_merged_v0_0_4_base_cal_gapmod_doimod_poscal.root ~/works/flight_data-FOXSI-4/merged_data/path5/cdte3_merged_v0_0_4_base_cal_gapmod_doimod_poscal.root ~/works/flight_data-FOXSI-4/merged_data/path5/cdte4_merged_v0_0_4_base_cal_gapmod_doimod_poscal.root
